@@ -1,0 +1,27 @@
+{
+  "name": "todo-list-template",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@aws-sdk/client-cognito-identity": "^3.338.0",
+    "@aws-sdk/client-cognito-identity-provider": "^3.338.0",
+    "@aws-sdk/credential-provider-cognito-identity": "^3.338.0",
+    "@aws-sdk/credential-providers": "^3.338.0",
+    "amazon-cognito-identity-js": "^6.2.0",
+    "aws-amplify": "^5.2.3",
+    "aws-sdk": "^2.1385.0",
+    "ramda": "^0.29.0",
+    "vue": "^3.3.2",
+    "vue-router": "^4.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vitejs/plugin-vue-jsx": "^3.0.1",
+    "vite": "^4.3.5"
+  }
+}
